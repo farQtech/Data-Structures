@@ -100,23 +100,23 @@ namespace DataStructSandBox.DataStructures
     }
 
 
-    // driver
-    public class program_
-    {
-        public static int Main()
-        {
-            DynamicArray<int> intArr = new DynamicArray<int>();
+    //// driver
+    ////public class Program
+    ////{
+    ////    public static int Main()
+    ////    {
+    ////        DynamicArray<int> intArr = new DynamicArray<int>();
 
-            intArr.Add(1);
-            intArr.Add(5);
-            intArr.Add(6);
-            intArr.Add(8);
-            intArr.Add(7);
+    ////        intArr.Add(1);
+    ////        intArr.Add(5);
+    ////        intArr.Add(6);
+    ////        intArr.Add(8);
+    ////        intArr.Add(7);
 
-            Console.WriteLine(intArr.ToString());
-            // output: [ 1, 5, 6, 8, 7 ]
+    ////        Console.WriteLine(intArr.ToString());
+    ////        // output: [ 1, 5, 6, 8, 7 ]
 
-            return 0;
-        }
-    }
+    ////        return 0;
+    ////    }
+    ////}
 }
