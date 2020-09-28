@@ -1,3 +1,13 @@
+[![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub pull-requests](https://img.shields.io/github/issues-pr/farQtech/Data-Structures.svg)](https://GitHub.com/farQtech/Data-Structures/pull/)
+ [![GitHub issues](https://img.shields.io/github/issues/farQtech/Data-Structures.svg)](https://GitHub.com/farQtech/Data-Structures/issues/)
+ [![GitHub forks](https://img.shields.io/github/forks/farQtech/Data-Structures.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/farQtech/Data-Structures/network/)
+ [![GitHub stars](https://img.shields.io/github/stars/farQtech/Data-Structures.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/farQtech/Data-Structures/stargazers/)
+ [![GitHub watchers](https://img.shields.io/github/watchers/farQtech/Data-Structures.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/farQtech/Data-Structures/watchers/)
+ [![HitCount](http://hits.dwyl.io/farQtech/badges.svg)](http://hits.dwyl.io/farQtech/badges)
+
+
 # Data-Structures
 
 DataStrucutres implemented in c#. Since there are not many resources to follow data strucutres in c# language I made this repo which people can use as reference material
