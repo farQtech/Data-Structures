@@ -17,7 +17,7 @@ your free t-shirt and swag from digital ocean. In order to make it consistent pl
 ## Pull Request Process
 
 1. Star and fork this repo.
-2. Add your implementation for a Ds.
+2. Add your implementation for a Ds please make sure to add an interface as well.
 3. Create a pr from the forked repo to this repo
 4. I'll merge your pr as soon as I verify that it is not a duplicate ds (which is already present in the repo).
 
