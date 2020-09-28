@@ -1,4 +1,4 @@
-[![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+<p align="center"><img style="padding:10px;" src="https://img.shields.io/badge/Open%20Source-💕%20-9cf?style=for-the-badge"></p>
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub pull-requests](https://img.shields.io/github/issues-pr/farQtech/Data-Structures.svg)](https://GitHub.com/farQtech/Data-Structures/pull/)
  [![GitHub issues](https://img.shields.io/github/issues/farQtech/Data-Structures.svg)](https://GitHub.com/farQtech/Data-Structures/issues/)
