@@ -5,7 +5,23 @@ using System.Text;
 
 namespace DataStructSandBox.DataStructures
 {
-    class Stack<T> : IEnumerable
+
+    public interface IStack<T>{
+
+        int Size();
+
+        bool IsEmpty();
+
+        T Pop();
+
+        void Push(T data);
+
+        T Top();
+
+
+    }
+
+    class Stack<T> : IStack<T>, IEnumerable
     {
        private  LinkedList<T> ll = new LinkedList<T>();
 

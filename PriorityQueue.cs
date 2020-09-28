@@ -8,11 +8,33 @@ using System.Text;
 
 namespace DataStructSandBox.DataStructures
 {
+    public interface IPriorityQueue<T>{
+
+        bool Less(int i, int j);
+
+        void Add(T elem);
+
+        bool Contains(T elem);
+
+        T Peek();
+
+        int Size();
+
+        T RemoveAt(int idx);
+
+        T Remove(T elem);
+
+        void Clear();
+        
+        bool IsEmpty();
+
+    }
+
     /*
      * Heap only allows types which can be compaired to maintain the 
      * heap invarient.
      */
-    class PriorityQueue<T> where T : IComparable<T>
+    class PriorityQueue<T> where T : IComparable<T>, IPriorityQueue<T>
     {
         // number of elements inside heap
         private int heapSize = 0;
@@ -92,7 +114,7 @@ namespace DataStructSandBox.DataStructures
             return this.map.ContainsKey(elem);
         }
 
-        public void Add(T elem)
+        public void Add(T elem)  
         {
             if (this.heapSize > this.heapCapacity)
                 throw new OverflowException();
@@ -109,7 +131,7 @@ namespace DataStructSandBox.DataStructures
         }
 
         // returns true if elem at idx i is less than elem at idx j
-        public bool Less(int i, int j)
+        public bool Less(int i, int j) 
         {
             T node1 = this.heap.ElementAt(i);
             T node2 = this.heap.ElementAt(j);
@@ -119,7 +141,7 @@ namespace DataStructSandBox.DataStructures
 
 
         // O(log(n))
-        private void Swim(int k)
+        private void Swim(int k) 
         {
             // get parent of node k
 
@@ -137,7 +159,7 @@ namespace DataStructSandBox.DataStructures
         }
 
         // O(log(n))
-        private void Sink(int k)
+        private void Sink(int k) 
         {
             while (true)
             {
