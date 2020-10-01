@@ -74,6 +74,39 @@ namespace DataStructSandBox.DataStructures
         {
             this._root = null;
         }
+        
+        public bool Search(T dataToSearch) 
+        {
+            if(this._root == null)
+            {
+                return false;
+            }
+
+            var upcomingNodes = new Queue<Node<T>>();
+            upcomingNodes.Enqueue(this._root);
+
+            while(upcomingNodes.Count > 0) 
+            {
+                var currentNode = upcomingNodes.Dequeue();
+
+                if(Compare(currentNode.Data, dataToSearch) == 0)
+                {
+                    return true;
+                }
+
+                if(currentNode.LeftChild != null)
+                {
+                    upcomingNodes.Enqueue(currentNode.LeftChild);
+                }
+
+                if(currentNode.RightChild != null)
+                {
+                    upcomingNodes.Enqueue(currentNode.RightChild);
+                }
+            }
+        
+            return false;
+        }
     }
 
     class Node<T> {
