@@ -35,7 +35,28 @@ As hacktober fest is a festival for open source contributors :sparkles: :star2:,
 you can find a list of markdown emojis [here](https://gist.github.com/rxaviers/7360908).
 
 
-### data structures implemented sofar
+### data structures implemented so far
 
 [DoublyLinkedList](https://github.com/farQtech/Data-Structures/blob/master/DoublyLinkedList.cs)
+
+[BinarySearchTree](https://github.com/farQtech/Data-Structures/blob/master/BinarySearchTree.cs)
+
+[CircularBuffer](https://github.com/farQtech/Data-Structures/blob/master/CircularBuffer.cs)
+
+[DynamicArray](https://github.com/farQtech/Data-Structures/blob/master/DynamicArray.cs)
+
+[PriorityQueue](https://github.com/farQtech/Data-Structures/blob/master/PriorityQueue.cs)
+
+[Queue](https://github.com/farQtech/Data-Structures/blob/master/Queue.cs)
+
+[SinglyCircularLinklist](https://github.com/farQtech/Data-Structures/blob/master/SinglyCircularLinklist.cs)
+
+[stack](https://github.com/farQtech/Data-Structures/blob/master/Stack.cs)
+
+[TrieDataStructure](https://github.com/farQtech/Data-Structures/blob/master/Trie%20Data%20Structure)
+
+[XORLinkedList](https://github.com/farQtech/Data-Structures/blob/master/XORLinkedList.cs)
+
+[trieDS](https://github.com/farQtech/Data-Structures/blob/master/trieDS.cs)
+
 
