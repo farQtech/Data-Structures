@@ -35,3 +35,7 @@ As hacktober fest is a festival for open source contributors :sparkles: :star2:,
 you can find a list of markdown emojis [here](https://gist.github.com/rxaviers/7360908).
 
 
+### data structures implemented sofar
+
+[DoublyLinkedList](https://github.com/farQtech/Data-Structures/blob/master/DoublyLinkedList.cs)
+
