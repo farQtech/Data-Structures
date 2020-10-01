@@ -5,7 +5,22 @@ using System.Text;
 
 namespace DataStructSandBox.DataStructures
 {
-    class Queue<T>: IEnumerable
+
+    public interface IQueue<T>{
+
+        bool IsEmpty();
+
+        int Size();
+
+        T peeek();
+
+        void Enqueue(T data);
+
+        T Dequeue();
+
+    }
+
+    class Queue<T>: IQueue<T>, IEnumerable
     {
         private LinkedList<T> ll = new LinkedList<T>();
 

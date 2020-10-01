@@ -5,7 +5,39 @@ using System.Text;
 
 namespace DataStructSandBox.DataStructures
 {
-    class DoublyLinkedList<T>
+
+    public interface IDoublyLinkedList<T>{
+
+        void Clear();
+
+        int Size();
+
+        bool IsEmpty();
+
+        void Add(T elem);
+
+        void AddAtHead(T elem);
+
+        void Append(T elem);
+
+        T Peek();
+
+        T RemoveAt(int idx);
+
+        T RemoveLast();
+
+        T RemoveFirst();
+
+        T PeekLast();
+
+        T Remove(T data);
+
+        T IndexOf(T data);
+        
+        bool Contains(T data);
+ }
+
+    class DoublyLinkedList<T> : IDoublyLinkedList
     {
         int Length = 0;
         private Node<T> Head;
@@ -104,7 +136,7 @@ namespace DataStructSandBox.DataStructures
             return data;
         }
 
-        public T RemoveLast()
+        public T RemoveLast()  
         {
             if (this.IsEmpty())
                 throw new NullReferenceException();
@@ -120,7 +152,7 @@ namespace DataStructSandBox.DataStructures
             return data;
         }
 
-        private T RemoveNode(Node<T> node)
+        private T RemoveNode(Node<T> node)  
         {
             // If the node is the head node
             if (node.prev == null) return this.RemoveFirst();
@@ -140,7 +172,7 @@ namespace DataStructSandBox.DataStructures
             return data;
         }
 
-        public T RemoveAt(int idx)
+        public T RemoveAt(int idx) 
         {
             if (idx < 0 || idx >= this.Length) throw new IndexOutOfRangeException();
 
