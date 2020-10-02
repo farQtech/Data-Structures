@@ -56,27 +56,27 @@ namespace DataStructSandBox.DataStructures
         public IEnumerator GetEnumerator() => this.ll.GetEnumerator();
     }
 
-    ////// driver 
-    ////public class Program
-    ////{
-    ////    public static int Main()
-    ////    {
-    ////        Stack<int> st = new Stack<int>();
+    // driver 
+    public class Program
+    {
+        public static int Main()
+        {
+            Stack<int> st = new Stack<int>();
 
-    ////        st.Push(1);
-    ////        st.Push(8);
-    ////        st.Push(6);
-    ////        st.Push(7);
+            st.Push(1);
+            st.Push(8);
+            st.Push(6);
+            st.Push(7);
 
-    ////       foreach(int i in st)
-    ////        {
-    ////            Console.Write("{0} ", i);
-    ////        }
+            foreach (int i in st)
+            {
+                Console.Write("{0} ", i);
+            }
 
-    ////        // output: 7 6 8 1
-    ////        // last value is at the top
+            // output: 7 6 8 1
+            // last value is at the top
 
-    ////        return 0;
-    ////    }
-    ////}
+            return 0;
+        }
+    }
 }

@@ -32,7 +32,7 @@ namespace DataStructSandBox.DataStructures
 
     /*
      * Heap only allows types which can be compaired to maintain the 
-     * heap invarient.
+     * heap invariant.
      */
     class PriorityQueue<T> where T : IComparable<T>, IPriorityQueue<T>
     {
@@ -200,12 +200,12 @@ namespace DataStructSandBox.DataStructures
 
         public T Remove(T elem)
         {
-            throw new NotImplementedException();
+            if (this.map.ContainsKey(elem))
+                this.map[elem].Remove(this.heapSize);
         }
 
         public T RemoveAt(int idx)
         {
-            throw new NotImplementedException();
         }
 
         private bool IsMinHeap()
