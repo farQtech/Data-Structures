@@ -12,7 +12,7 @@ namespace DataStructSandBox.DataStructures
 
         int Size();
 
-        T peeek();
+        T Peek();
 
         void Enqueue(T data);
 
@@ -28,7 +28,7 @@ namespace DataStructSandBox.DataStructures
 
         public int Size() => this.ll.Count;
 
-        public T peeek()
+        public T Peek()
         {
             if (this.IsEmpty())
                 throw new NullReferenceException();
@@ -54,24 +54,24 @@ namespace DataStructSandBox.DataStructures
     }
 
     ////// driver 
-    ////public class Program
-    ////{
-    ////    public static int Main()
-    ////    {
-    ////        Queue<int> q = new Queue<int>();
+    public class Program
+    {
+        public static int Main()
+        {
+            Queue<int> q = new Queue<int>();
 
-    ////        q.Enqueue(1);
-    ////        q.Enqueue(9);
-    ////        q.Enqueue(96);
-    ////        q.Enqueue(5);
-    ////        q.Enqueue(75);
+            q.Enqueue(1);
+            q.Enqueue(9);
+            q.Enqueue(96);
+            q.Enqueue(5);
+            q.Enqueue(75);
 
-    ////        foreach (int i in q)
-    ////            Console.Write("{0} ", i);
-    ////        // output : 75 5 96 9 1
+            foreach (int i in q)
+                Console.Write("{0} ", i);
+            // output : 75 5 96 9 1
 
-    ////        return 0;
-    ////    }
-    ////}
+            return 0;
+        }
+    }
 }
 
