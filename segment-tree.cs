@@ -38,8 +38,7 @@ public class SegmentTree {
 		int res = 0;
 		
 		
-		for (l += n, r += n; l < r;
-							l >>= 1, r >>= 1)
+		for (l += n, r += n; l < r; l >>= 1, r >>= 1)
 		{
 			if ((l & 1) > 0)
 
