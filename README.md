@@ -37,26 +37,26 @@ you can find a list of markdown emojis [here](https://gist.github.com/rxaviers/7
 
 ### data structures implemented so far
 
-[DoublyLinkedList](https://github.com/farQtech/Data-Structures/blob/master/DoublyLinkedList.cs)
+[DoublyLinkedList](https://github.com/farQtech/Data-Structures/blob/master/Data%20structure%20impl/linear%20DS/DoublyLinkedList.cs)
 
-[BinarySearchTree](https://github.com/farQtech/Data-Structures/blob/master/BinarySearchTree.cs)
+[BinarySearchTree](https://github.com/farQtech/Data-Structures/blob/master/Data%20structure%20impl/non%20linear%20DS/BinarySearchTree.cs)
 
-[CircularBuffer](https://github.com/farQtech/Data-Structures/blob/master/CircularBuffer.cs)
+[CircularBuffer](https://github.com/farQtech/Data-Structures/blob/master/Data%20structure%20impl/non%20linear%20DS/CircularBuffer.cs)
 
-[DynamicArray](https://github.com/farQtech/Data-Structures/blob/master/DynamicArray.cs)
+[DynamicArray](https://github.com/farQtech/Data-Structures/blob/master/Data%20structure%20impl/linear%20DS/DynamicArray.cs)
 
-[PriorityQueue](https://github.com/farQtech/Data-Structures/blob/master/PriorityQueue.cs)
+[PriorityQueue](https://github.com/farQtech/Data-Structures/blob/master/Data%20structure%20impl/non%20linear%20DS/PriorityQueue.cs)
 
-[Queue](https://github.com/farQtech/Data-Structures/blob/master/Queue.cs)
+[Queue](https://github.com/farQtech/Data-Structures/blob/master/Data%20structure%20impl/linear%20DS/Queue.cs)
 
-[SinglyCircularLinklist](https://github.com/farQtech/Data-Structures/blob/master/SinglyCircularLinklist.cs)
+[SinglyCircularLinklist](https://github.com/farQtech/Data-Structures/blob/master/Data%20structure%20impl/linear%20DS/SinglyCircularLinklist.cs)
 
-[stack](https://github.com/farQtech/Data-Structures/blob/master/Stack.cs)
+[stack](https://github.com/farQtech/Data-Structures/blob/master/Data%20structure%20impl/linear%20DS/Stack.cs)
 
-[TrieDataStructure](https://github.com/farQtech/Data-Structures/blob/master/Trie%20Data%20Structure)
+[TrieDataStructure](https://github.com/farQtech/Data-Structures/blob/master/Data%20structure%20impl/Trie%20Data%20Structure)
 
-[XORLinkedList](https://github.com/farQtech/Data-Structures/blob/master/XORLinkedList.cs)
+[XORLinkedList](https://github.com/farQtech/Data-Structures/blob/master/Data%20structure%20impl/linear%20DS/XORLinkedList.cs)
 
-[trieDS](https://github.com/farQtech/Data-Structures/blob/master/trieDS.cs)
+[trieDS](https://github.com/farQtech/Data-Structures/blob/master/Data%20structure%20impl/non%20linear%20DS/trieDS.cs)
 
 
