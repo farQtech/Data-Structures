@@ -1,4 +1,4 @@
-class PriorityQueue
+public class PriorityQueue
 {
     public List<int> list;
     public int Count { get { return list.Count; } }
