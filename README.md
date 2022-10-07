@@ -58,5 +58,3 @@ you can find a list of markdown emojis [here](https://gist.github.com/rxaviers/7
 [XORLinkedList](https://github.com/farQtech/Data-Structures/blob/master/Data%20structure%20impl/linear%20DS/XORLinkedList.cs)
 
 [trieDS](https://github.com/farQtech/Data-Structures/blob/master/Data%20structure%20impl/non%20linear%20DS/trieDS.cs)
-
-
