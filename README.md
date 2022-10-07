@@ -8,26 +8,26 @@
 
 # Data-Structures
 
-Data Strucutres implemented in C#. Since there are not many resources to follow data structures in the C# language, I made this repo which people can use as reference material
+Data Structures implemented in C#. Since there are not many resources to follow data structures in the C# language, I made this repository which people can use as reference material
 and it goes without saying that the quality of this resource is dependent on the support from community. So please feel free to open an issue or pull request if you find something
 which can/needs to be imporoved.
 
 ## New contributors
 
-New contributors are always welcome and to encourage contributions from beginners I have intentionally left methods unimplemented, so feel free to implement them also I have made
+New contributors are always welcome and to encourage contributions from beginners I have intentionally left some methods unimplemented, so feel free to implement them also I have made
 a tremendous amount of grammatical and spelling errors; feel free to correct me there as well.
 
-# HacktoberFest 2020
+# HacktoberFest 2022
 
 This repository was inactive for a long time and since it's Hacktober already I am opening some issues with tag Hacktoberfest (#Hacktoberfest), but feel free to open as many as you want and get
-your free t-shirt and swag from Digital Ocean. In order to make it consistent, please follow below guidelines to open a pr.
+your free t-shirt and swag from Digital Ocean. In order to make it consistent, please follow below guidelines to open a pull request.
 
 ## Pull Request Process
 
 1. Star and fork this repo.
-2. Add your implementation for a Ds please make sure to add an interface as well.
-3. Create a pr from the forked repo to this repo
-4. I'll merge your pr as soon as I verify that it is not a duplicate ds (which is already present in the repo).
+2. Add your implementation for a data structures, please make sure to add an interface as well.
+3. Create a pull request from the forked repository to this repository.
+4. I'll merge your pull request as soon as I verify that it is not a duplicate data structure (which is already present in the repository).
 
 ### Commit message format
 
